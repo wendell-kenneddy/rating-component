@@ -1,5 +1,5 @@
 import { Rating } from '../../contexts/RatingContext';
-import { useRating } from '../../hooks';
+import { useRating } from '../../hooks/useRating';
 
 interface RatingButtonProps {
   rating: Rating;
