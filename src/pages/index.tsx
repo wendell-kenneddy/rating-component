@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import { RatingSubmitted } from '../components/RatingSubmitted';
 import { SelectRating } from '../components/SelectRating';
-import { useRating } from '../hooks';
+import { useRating } from '../hooks/useRating';
 
 export default function Home() {
   const { hasSubmitted } = useRating();
