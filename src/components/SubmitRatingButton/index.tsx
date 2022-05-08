@@ -1,4 +1,4 @@
-import { useRating } from '../../hooks';
+import { useRating } from '../../hooks/useRating';
 
 export function SubmitRatingButton() {
   const { handleRatingSubmit } = useRating();
