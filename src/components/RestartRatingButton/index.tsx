@@ -1,5 +1,5 @@
 import { ArrowLeft } from 'phosphor-react';
-import { useRating } from '../../hooks';
+import { useRating } from '../../hooks/useRating';
 
 export function RestartRatingButton() {
   const { handleRestartRating } = useRating();
